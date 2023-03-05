@@ -272,8 +272,7 @@ bests = perf_table.iloc[[perf_table['Profit'].idxmax()]]
 print(int(bests['False Negatives'] + bests['True Positives']))
 ```
 
-### b) What profit would we expect to make? (Be sure to consider both the revenue 
-#from rentals and money spent on advertising.) How would this compare to a baseline where we sent ads to every user?
+### b) What profit would we expect to make? (Be sure to consider both the revenue from rentals and money spent on advertising) How would this compare to a baseline where we sent ads to every user?
 ```138.6-85.8```
 ### c) How much money would be wasted on advertisements that don’t encourage a user to rent the movie?
 ``` 0.2 * 727 ```
